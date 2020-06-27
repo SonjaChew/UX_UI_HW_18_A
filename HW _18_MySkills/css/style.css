@@ -47,11 +47,8 @@ header {
     padding-right:20px;
 }
 .MyWork {
-    padding-left: 20px;
-    padding-right:20px;
-    
-    
-}
+    padding-left:20px;
+    padding-right:20px;}
 .MySkills {
     padding-left: 20px;
     padding-right:20px;
@@ -64,61 +61,86 @@ header {
 .logo {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    
-    padding:1%;
+    align-items: flex-start; padding:1%;
     padding-top: 10px;
     padding-bottom: 15px;
     text-align: left;
     size: 50px;} 
- div h1{
-    color: #545454;
-    font-family: 'Noto Serif SC', serif;
-    font-size: 30px;
-    text-align: left;
-
-}
-.work {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 0;
-    text-align: center;
-    font-family: 'Noto Serif SC', serif;
-    font-size: 30px;
-    color: #545454;
-}
-.info{
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    white-space: wrap;
-    padding-left: 50px;
-    padding-top: 30px;
-    text-align: left;
-    padding-bottom: 50px;
+ ,
+.flexContainer {
+    display:flex; 
+   justify-content: center;
+    flex-direction: row;
     padding-right: 50px;
-    width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1{
+    font-family: 'Noto Serif SC', serif;
+    color:#545454;
+    white-space: nowrap;
+     text-align: center;
+}
+
+.mySkills {
+    display:flex;
+    justify-content:center;
+    margin-left: 100px;
+    margin-right: 100px;
+    white-space: wrap;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+#link {
+    font-family:'Noto Serif SC', serif ;
+    display: flex;
+    align-items: flex-end;
+    
+}
+ p {
+    max-width: 700px;
+    font-family:'Nunito', sans-serif;
+ }
+.myWork {
+    display:flex;
+    justify-content:center;
+    white-space: wrap;
+}
+.workGrid {
+    display:grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 50% 50% ;    
+}
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-family:'Noto Serif SC', serif ;
+    padding-right: 20px;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: wrap;
 
 }
-#chart{
-    display: flex;
-    padding-left: 50px;
-    align-items: center;
-    justify-content: flex-end;
-}
-h1 {
-    text-align: center;
-    outline-color: #545454;
-    font-family:'Noto Serif SC', serif ;
-}
-#myWork{
+button {
     background-color: #b4aa9f;
-    opacity: 70%;
-    width: 200px;
-    padding-left: 5px;
-    padding-right: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-color: #b4aa9f;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+   
 }
-footer{
+
+footer {
     padding-top: 50px;
 }
 .foot {
@@ -151,8 +173,4 @@ footer{
     max-width: 208px;
     
     display: flex;
-    align-items: flex-end;
-}
-.page {
-
-}
+    align-items: flex-end;}
