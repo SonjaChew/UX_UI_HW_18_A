@@ -65,8 +65,8 @@ header {
     padding-top: 10px;
     padding-bottom: 15px;
     text-align: left;
-    size: 50px;} 
- ,
+    size: 50px;
+} 
 .flexContainer {
     display:flex; 
    justify-content: center;
@@ -90,6 +90,7 @@ h1{
     white-space: wrap;
     text-align: left;
     font-family: 'Nunito', sans-serif;
+    color: #545454;
 }
 #link {
     font-family:'Noto Serif SC', serif ;
@@ -100,6 +101,7 @@ h1{
  p {
     max-width: 700px;
     font-family:'Nunito', sans-serif;
+    color: #545454;
  }
 .myWork {
     display:flex;
@@ -117,14 +119,15 @@ h2 {
     justify-content: flex-start;
     font-family:'Noto Serif SC', serif ;
     padding-right: 20px;
+    color: #545454;
 }
 .grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: wrap;
-
 }
+
 button {
     background-color: #b4aa9f;
     height: 40px;
@@ -176,10 +179,10 @@ footer {
     align-items: flex-end;}
 
  @media only screen and (max-width: 600px) {
-    
     .workGrid {
         display:grid;
         grid-column-gap: 20px;
         grid-row-gap: 20px;
         grid-template-columns: 100%;    
+    }
  }
